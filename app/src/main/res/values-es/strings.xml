@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    <string name="app_name">KonClothes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bienvenido</string>
+    <string name="nav_header_subtitle">Nombre de Usuario</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="categories">Categorias</string>
+    <string name="compras">Compras</string>
+    <string name="carrito">Carrito</string>
+    <string name="exit">Salir</string>
+</resources>
