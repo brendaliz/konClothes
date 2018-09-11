@@ -7,7 +7,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Configuraciones</string>
     <string name="categories">Categorias</string>
-    <string name="compras">Compras</string>
+    <string name="compras">Purchases</string>
     <string name="carrito">Carrito</string>
     <string name="exit">Salir</string>
+    <string name="username">Nombre del Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="access">Acceder</string>
+    <string name="email">Correo Electronico</string>
+    <string name="rep_password">Repita su contraseña</string>
+    <string name="create_accout">Crear cuenta</string>
 </resources>
