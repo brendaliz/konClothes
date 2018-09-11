@@ -17,4 +17,5 @@
     <string name="email">Correo Electronico</string>
     <string name="rep_password">Repita su contraseña</string>
     <string name="create_accout">Crear cuenta</string>
+    <string name="return_login_pg">Regresar a Inicio de Sesión</string>
 </resources>
