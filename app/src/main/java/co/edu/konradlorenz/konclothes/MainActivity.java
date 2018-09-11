@@ -1,5 +1,6 @@
 package co.edu.konradlorenz.konclothes;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,13 +77,15 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_cat) {
             // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, Categories.class);
+            startActivity(intent);
         } else if (id == R.id.nav_com) {
-
 
         } else if (id == R.id.nav_car) {
 
         } else if (id == R.id.nav_exit) {
-
+            Intent intent = new Intent(MainActivity.this, Login.class);
+            startActivity(intent);
 
         }
 
