@@ -247,8 +247,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="8dp"
-                        android:layout_marginTop="30dp"
+                        android:padding="0dp"
+                        android:layout_marginTop="20dp"
                         android:background="@color/colorMintDark"
                         android:text="Faldas"
                         android:textSize="18sp"
@@ -267,20 +267,20 @@
                     android:background="@color/colorAqua"
                     >
                     <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_volleyball"
+                        android:src="@drawable/ic_socks"
                         android:tint="@color/colorWhite"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="8dp"
-                        android:layout_marginTop="30dp"
+                        android:padding="0dp"
+                        android:layout_marginTop="20dp"
                         android:background="@color/colorAquaDark"
-                        android:text="Volleyball"
+                        android:text="Medias"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
@@ -297,18 +297,18 @@
                     android:background="@color/colorPinkRose"
                     >
                     <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_weight_lefting"
+                        android:src="@drawable/ic_scarf"
                         android:tint="@color/colorWhite"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="8dp"
-                        android:layout_marginTop="30dp"
+                        android:padding="0dp"
+                        android:layout_marginTop="20dp"
                         android:background="@color/colorPinkRoseDark"
                         android:text="Weight Lifting"
                         android:textSize="18sp"
