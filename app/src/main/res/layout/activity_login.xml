@@ -41,29 +41,28 @@
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="@string/username"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:textColor="@android:color/white"
-                android:background="#11FF00"
                 android:layout_marginTop="10dp"
-                />
+                android:background="#11FF00"
+                android:ems="10"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:text="@string/username"
+                android:textColor="@android:color/white" />
 
             <EditText
                 android:id="@+id/editText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPassword"
-                android:text="@string/password"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@android:color/white"
                 android:background="#11FF00"
-                />
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white" />
 
             <LinearLayout
                 android:layout_width="match_parent"
