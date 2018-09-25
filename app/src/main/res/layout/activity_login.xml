@@ -72,9 +72,20 @@
                 android:gravity="center"
                 android:layout_marginTop="15dp">
 
+                <Button
+                    android:id="@+id/btnAcceder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/colorPrimary"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/access"
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnRegistrarse"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/colorPrimary"
@@ -82,19 +93,9 @@
                     android:textColor="@android:color/white"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
+                    android:layout_marginLeft="20dp"
                     android:gravity="center"
                     />
-
-                <Button
-                    android:id="@+id/btnAcceder"
-                    android:layout_width="137dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:background="@color/colorPrimary"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="@string/access"
-                    android:textColor="@android:color/white" />
 
             </LinearLayout>
         </LinearLayout>
