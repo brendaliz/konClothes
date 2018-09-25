@@ -48,7 +48,6 @@
                 android:ems="10"
                 android:hint="@string/username"
                 android:inputType="textPersonName"
-                android:text="@string/username"
                 android:textColor="@android:color/white" />
 
             <EditText
