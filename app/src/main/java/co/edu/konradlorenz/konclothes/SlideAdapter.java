@@ -30,10 +30,10 @@ public class SlideAdapter extends PagerAdapter {
     }   ;
     // list of descriptions
     public String[] lst_description = {
-            "Puedes encontar gran variedad de chaquetas para hombre y mujer a tu gusto,",
-            "Encontraras vestidos a tu gusto con gran variedad de colores y estilos,",
-            "Existen pantalones de todas las tallas,propuestas y variedades,",
-            "Encontraras camisas para hombre y mujer a tu gusto en gran variedad.!"
+            "Puedes encontar gran variedad de chaquetas para hombre y mujer a tu gusto.",
+            "Encontraras vestidos a tu gusto con gran variedad de colores y estilos.",
+            "Existen pantalones de todas las tallas,propuestas y variedades",
+            "Encontraras camisas para hombre y mujer a tu gusto en gran variedad!"
     };
     // list of background colors
     public int[]  lst_backgroundcolor = {

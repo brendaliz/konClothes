@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_com) {
 
         } else if (id == R.id.nav_car) {
-
+            Intent intent = new Intent(MainActivity.this, CartClothesActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_exit) {
             Intent intent = new Intent(MainActivity.this, Login.class);
             startActivity(intent);
