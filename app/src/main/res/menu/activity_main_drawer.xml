@@ -7,18 +7,18 @@
         <item
             android:id="@+id/nav_cat"
             android:icon="@drawable/ic_folder_black_24dp"
-            android:title="Categorias" />
+            android:title="@string/categories" />
         <item
             android:id="@+id/nav_com"
             android:icon="@drawable/ic_shop_black_24dp"
-            android:title="Comprar" />
+            android:title="@string/purchases" />
         <item
             android:id="@+id/nav_car"
             android:icon="@drawable/ic_shopping_cart_black_24dp"
-            android:title="Carrito" />
+            android:title="@string/your_shopping_card" />
     </group>
 
-    <item android:title="Cerrar Sesion">
+    <item android:title="@string/sign_off">
         <menu>
             <item
                 android:id="@+id/nav_exit"

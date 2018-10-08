@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">KonClothes</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Welcom</string>
@@ -20,8 +19,34 @@
     <string name="create_accout">Create accout</string>
     <string name="return_login_pg">Return to Login</string>
     <string name="user_email">user@gmailcom</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_contacts">Contacts</string>
+    <string name="card_details_title">Card Details</string>
+    <string name="card_number">Card Number</string>
+    <string name="insert_card_nmber">Insert your card number</string>
+    <string name="card_name">Card Name</string>
+    <string name="insert_card_name">Insert the name in your card</string>
+    <string name="card_expiration_date">Expiration Date</string>
+    <string name="insert_card_expiration_date">Insert your card expiration date</string>
+    <string name="card_security_code">Security Code</string>
+    <string name="insert_cvv">Insert your CVV</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="your_shopping_card">Your Shopping Card</string>
+    <string name="buy_products">Buy the product(s)</string>
+    <string name="cart_back_to_catalog">Back to the Catalog</string>
+    <string name="women_shirts">Women Shirts</string>
+    <string name="men_shirts">Men Shirts</string>
+    <string name="men_pants">Men Pants</string>
+    <string name="women_pants">Women Pants</string>
+    <string name="women_dresses">Women Dresses</string>
+    <string name="men_dresses">Men Dresses</string>
+    <string name="skirts">Skirts</string>
+    <string name="socks">Socks</string>
+    <string name="scarves">Scarves</string>
+    <string name="sign_off">Sign Off</string>
+    <string name="purchases">Purchases</string>
+    <string name="slide_text_1">You can find a great variety of jackets for men and women according to your tastes.</string>
+    <string name="slide_text_2">You will find dresses to your tastes with a big variety of colors and styles.</string>
+    <string name="slide_text_3">There are pants of all sizes, proposals and varieties.</string>
+    <string name="slide_text_4">"You will find shirts for shirts for men and women in great variety!</string>
 </resources>

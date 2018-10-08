@@ -19,12 +19,12 @@
 
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/cdBackToPurchaseDetails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
                 app:srcCompat="@android:drawable/ic_delete" />
 
             <TextView
@@ -34,9 +34,8 @@
                 android:layout_centerInParent="true"
                 android:layout_gravity="left"
                 android:layout_marginLeft="20dp"
-
                 android:gravity="center"
-                android:text="Detalles de Tarjeta"
+                android:text="@string/card_details_title"
                 android:textColor="#11FF00"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -48,7 +47,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="25dp"
-                android:text="No. de Tarjeta" />
+                android:text="@string/card_number" />
 
             <EditText
                 android:id="@+id/card_number"
@@ -59,7 +58,7 @@
                 android:layout_marginTop="10dp"
                 android:background="#11FF00"
                 android:ems="30"
-                android:hint="Inserte el numero en la tarjeta"
+                android:hint="@string/insert_card_nmber"
                 android:inputType="textEmailAddress" />
 
             <TextView
@@ -69,7 +68,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Nombre en la tarjeta" />
+                android:text="@string/card_name" />
 
             <EditText
                 android:id="@+id/nombre_tarjeta"
@@ -80,7 +79,7 @@
                 android:layout_marginTop="10dp"
                 android:background="#11FF00"
                 android:ems="30"
-                android:hint="Inserte el nombre en la tarjeta"
+                android:hint="@string/insert_card_name"
                 android:inputType="textPassword" />
             <TextView
                 android:id="@+id/ExpDate"
@@ -89,7 +88,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Fecha de Vencimiento"
+                android:text="@string/card_expiration_date"
                 />
 
             <EditText
@@ -102,7 +101,7 @@
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
                 android:background="#11FF00"
-                android:hint="Fecha de vencimiento"/>
+                android:hint="@string/insert_card_expiration_date"/>
 
             <TextView
                 android:id="@+id/cVV"
@@ -111,7 +110,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Codigo de Seguridad" />
+                android:text="@string/card_security_code" />
 
             <EditText
                 android:id="@+id/safeCode"
@@ -122,7 +121,7 @@
                 android:layout_marginTop="10dp"
                 android:background="#11FF00"
                 android:ems="30"
-                android:hint="Ingrese el codigo de seguridad"
+                android:hint="@string/insert_cvv"
                 android:inputType="textPassword" />
 
             <LinearLayout
@@ -143,7 +142,7 @@
                     android:gravity="center"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
-                    android:text="Comprar"
+                    android:text="@string/confirm_purchase"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
