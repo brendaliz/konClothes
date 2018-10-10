@@ -29,121 +29,66 @@
 
             <TextView
                 android:id="@+id/DetallesTarjeta"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:layout_gravity="left"
-                android:layout_marginLeft="20dp"
-                android:gravity="center"
-                android:text="@string/card_details_title"
-                android:textColor="#11FF00"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+                style="@style/BigTitleStyle.Style2"
+                android:text="@string/card_details_title"/>
 
             <TextView
                 android:id="@+id/cardNumber"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="25dp"
+                style="@style/CardDetailsTextView"
                 android:text="@string/card_number" />
 
             <EditText
                 android:id="@+id/card_number"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:background="#11FF00"
-                android:ems="30"
+                style="@style/TextFields_EditTextStyle.EmailAddress"
                 android:hint="@string/insert_card_nmber"
-                android:inputType="textEmailAddress" />
+                 />
 
             <TextView
                 android:id="@+id/NameInCard"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
+                style="@style/CardDetailsTextView"
                 android:text="@string/card_name" />
 
             <EditText
                 android:id="@+id/nombre_tarjeta"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:background="#11FF00"
-                android:ems="30"
+                style="@style/TextFields_EditTextStyle.Password"
                 android:hint="@string/insert_card_name"
-                android:inputType="textPassword" />
+                />
             <TextView
                 android:id="@+id/ExpDate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
+                style="@style/CardDetailsTextView"
                 android:text="@string/card_expiration_date"
                 />
 
             <EditText
-                android:id="@+id/editText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="date"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:background="#11FF00"
-                android:hint="@string/insert_card_expiration_date"/>
+                android:id="@+id/insertCardExpirationDate"
+                style="@style/TextFields_EditTextStyle.Date"
+                android:hint="@string/insert_card_expiration_date"
+                />
 
             <TextView
                 android:id="@+id/cVV"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
+                style="@style/CardDetailsTextView"
                 android:text="@string/card_security_code" />
 
             <EditText
                 android:id="@+id/safeCode"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="10dp"
-                android:background="#11FF00"
-                android:ems="30"
+                style="@style/TextFields_EditTextStyle.Password"
                 android:hint="@string/insert_cvv"
-                android:inputType="textPassword" />
+                 />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_marginTop="30dp">
+                >
 
 
                 <Button
                     android:id="@+id/btnComprar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@color/colorPrimary"
-                    android:gravity="center"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
+                    style="@style/ButtonStyle.Style2.Class1"
                     android:text="@string/confirm_purchase"
-                    android:textColor="@android:color/white" />
+                     />
 
             </LinearLayout>
 

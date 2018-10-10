@@ -26,42 +26,21 @@
                 app:srcCompat="@mipmap/icon" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="@string/app_name"
-                android:textColor="#3F51B5"
-                android:textSize="34sp"
-                android:textStyle="bold"
-                android:gravity="center"/>
+                android:id="@+id/konClothesTitle"
+                style="@style/BigTitleStyle.Style1"
+                android:text="@string/app_name"/>
 
             <EditText
                 android:id="@+id/username"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="15dp"
-                android:background="#11FF00"
-                android:ems="10"
                 android:hint="@string/username"
-                android:inputType="textPersonName"
-                android:textColor="@android:color/white" />
+                style="@style/TextFields_EditTextStyle.Username"
+                 />
 
             <EditText
-                android:id="@+id/editText3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="25dp"
-                android:background="#11FF00"
-                android:ems="10"
+                android:id="@+id/passwordText"
                 android:hint="@string/password"
-                android:inputType="textPassword"
-                android:textColor="@android:color/white" />
+                style="@style/TextFields_EditTextStyle.Password"
+                 />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -72,27 +51,16 @@
 
                 <Button
                     android:id="@+id/btnAcceder"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:background="@color/colorPrimary"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
+                    style="@style/ButtonStyle.Style1"
                     android:text="@string/access"
-                    android:textColor="@android:color/white" />
+                     />
 
                 <Button
                     android:id="@+id/btnRegistrarse"
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorPrimary"
+                    style="@style/ButtonStyle.Style1"
                     android:text="@string/register"
-                    android:textColor="@android:color/white"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
                     android:layout_marginLeft="20dp"
-                    android:gravity="center"
+
                     />
 
             </LinearLayout>
