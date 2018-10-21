@@ -8,25 +8,34 @@
     android:id="@+id/cartProducts"
     tools:context=".CartClothesActivity">
 
-
-    <TextView
-        android:id="@+id/yourShoppingCardTitle"
-        style="@style/BigTitleStyle.Style2"
-        android:text="@string/your_shopping_card"/>
-    <ListView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lvCardItems">
-    </ListView>
-
-    <Button
-        android:id="@+id/btnRealizarCompra"
-        style="@style/ButtonStyle.Style2.Class1"
-        android:text="@string/buy_products"
-        />
-    <Button
-        android:id="@+id/btnVolverCatalogo"
-        style="@style/ButtonStyle.Style2.Class1"
-        android:text="@string/cart_back_to_catalog"
-        />
+        android:id="@+id/scrollView6"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/yourShoppingCardTitle"
+                    style="@style/BigTitleStyle.Style2"
+                    android:text="@string/your_shopping_card"/>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lvCardItems">
+                </ListView>
+                <Button
+                    android:id="@+id/btnRealizarCompra"
+                    style="@style/ButtonStyle.Style2.Class1"
+                    android:text="@string/buy_products"
+                    />
+                <Button
+                    android:id="@+id/btnVolverCatalogo"
+                    style="@style/ButtonStyle.Style2.Class1"
+                    android:text="@string/cart_back_to_catalog"
+                    />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
