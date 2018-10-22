@@ -26,13 +26,13 @@ public class CartClothesActivity extends AppCompatActivity {
         adaptador = new CartClothesAdapter(this,GetArrayItems());
         lvItems.setAdapter(adaptador);
 
-        /*btnRealizarCompra.setOnClickListener(new View.OnClickListener() {
+        btnRealizarCompra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CartClothesActivity.this, MainActivity.class);
+                Intent intent = new Intent(CartClothesActivity.this, PurchaseDetails.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
         btnVolverCatalogo.setOnClickListener(new View.OnClickListener() {
             @Override

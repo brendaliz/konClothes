@@ -32,7 +32,8 @@
         <activity android:name=".register" />
         <activity android:name=".Categories" />
         <activity android:name=".CardDetails" />
-        <activity android:name=".CartClothesActivity"/>
+        <activity android:name=".CartClothesActivity" />
+        <activity android:name=".PurchaseDetails"></activity>
     </application>
 
 </manifest>

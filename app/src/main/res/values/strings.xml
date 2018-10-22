@@ -49,4 +49,9 @@
     <string name="slide_text_2">You will find dresses to your tastes with a big variety of colors and styles.</string>
     <string name="slide_text_3">There are pants of all sizes, proposals and varieties.</string>
     <string name="slide_text_4">"You will find shirts for shirts for men and women in great variety!</string>
+    <string name="purchase_det_title">Purchase Details</string>
+    <string name="total_price_text">Total Price:</string>
+    <string name="total_price">$28.800</string>
+    <string name="pay_mode">Pay Mode:</string>
+    <string name="backToShoppingCart">Back To Shopping Cart</string>
 </resources>

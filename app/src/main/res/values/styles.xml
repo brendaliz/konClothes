@@ -76,6 +76,10 @@
         <item name="android:layout_marginTop">15dp</item>
     </style>
 
+    <style name="CardDetailsTextView.PD">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
     <style name="BigTitleStyle">
         <item name="android:layout_centerInParent">true</item>
         <item name="android:layout_gravity">center</item>
@@ -98,4 +102,14 @@
         android:layout_height="wrap_content"
     </style>
 
+    <style name="PayModeImages">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="PayModeImages.Ex">
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
 </resources>

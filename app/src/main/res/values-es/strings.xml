@@ -46,4 +46,9 @@
     <string name="slide_text_2">Encontraras vestidos a tu gusto con gran variedad de colores y estilos.</string>
     <string name="slide_text_3">Existen pantalones de todas las tallas,propuestas y variedades</string>
     <string name="slide_text_4">"¡Encontraras camisas para hombre y mujer a tu gusto en gran variedad!</string>
+    <string name="purchase_det_title">Detalles de Compra</string>
+    <string name="total_price_text">Precio Total:</string>
+    <string name="total_price">$28.800</string>
+    <string name="pay_mode">Modo de Pago:</string>
+    <string name="backToShoppingCart">Regresar al Carrito</string>
 </resources>

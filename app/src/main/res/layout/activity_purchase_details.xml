@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".PurchaseDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewPurchaseDet"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/yourPurchaseDetails"
+                style="@style/BigTitleStyle.Style2"
+                android:text="@string/purchase_det_title"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lvPurchaseItems">
+            </ListView>
+            <TextView
+                android:id="@+id/totalPriceTitle"
+                style="@style/CardDetailsTextView"
+                android:text="@string/total_price_text" />
+
+            <TextView
+                android:id="@+id/totalPrice"
+                style="@style/CardDetailsTextView.PD"
+                android:text="@string/total_price"
+                 />
+            <TextView
+                android:id="@+id/payMode"
+                style="@style/CardDetailsTextView"
+                android:text="@string/pay_mode" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/american_express"
+                    style="@style/PayModeImages"
+                    android:src="@drawable/americanexpress"
+                     />
+                <ImageView
+                    android:id="@+id/master_card"
+                    style="@style/PayModeImages.Ex"
+                    android:src="@drawable/mastercard"
+                    />
+                <ImageView
+                    android:id="@+id/pay_pal"
+                    style="@style/PayModeImages.Ex"
+                    android:src="@drawable/paypal"
+                    />
+                <ImageView
+                    android:id="@+id/visa"
+                    style="@style/PayModeImages.Ex"
+                    android:src="@drawable/visa"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnVolverCarrito"
+                style="@style/ButtonStyle.Style2.Class1"
+                android:text="@string/backToShoppingCart"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
