@@ -54,4 +54,13 @@
     <string name="total_price">$28.800</string>
     <string name="pay_mode">Pay Mode:</string>
     <string name="backToShoppingCart">Back To Shopping Cart</string>
+    <string name="ex_1_cloth_name">Red Nylon Shirt</string>
+    <string name="ex_1_cloth_description">"Nylon T-shirt size L. \nHigh hardness. For men"</string>
+    <string name="ex_1_price">$40.000</string>
+    <string name="ex_2_cloth_name">Blue Jean brand Denim</string>
+    <string name="ex_2_cloth_description">"Blue Jean of Denim Brand, M size,\nleather. For women"</string>
+    <string name="ex_2_price">$65.000</string>
+    <string name="ex_3_cloth_name">Adidas Socks</string>
+    <string name="ex_3_cloth_description">"Socks brand Adidas, M size,\nof high quality. For men"</string>
+    <string name="ex_3_price">$50.000</string>
 </resources>

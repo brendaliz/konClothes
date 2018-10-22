@@ -87,7 +87,8 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(MainActivity.this, Categories.class);
             startActivity(intent);
         } else if (id == R.id.nav_com) {
-
+            Intent intent = new Intent(MainActivity.this, Purchases.class);
+            startActivity(intent);
         } else if (id == R.id.nav_car) {
             Intent intent = new Intent(MainActivity.this, CartClothesActivity.class);
             startActivity(intent);

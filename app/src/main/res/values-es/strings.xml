@@ -51,4 +51,13 @@
     <string name="total_price">$28.800</string>
     <string name="pay_mode">Modo de Pago:</string>
     <string name="backToShoppingCart">Regresar al Carrito</string>
+    <string name="ex_1_cloth_name">Camiseta Roja de Nylon</string>
+    <string name="ex_1_cloth_description">"Camiseta de Nylon talla L.\nAlta dureza. Para hombre"</string>
+    <string name="ex_1_price">$40.000</string>
+    <string name="ex_2_cloth_name">Jean azul marca Denim</string>
+    <string name="ex_2_cloth_description">"Jean Azul de marca Denim, talla M,\nde cuero. Para Mujer"</string>
+    <string name="ex_2_price">$65.000</string>
+    <string name="ex_3_cloth_name">Calcetines Adidas</string>
+    <string name="ex_3_cloth_description">"Calcetines marca Adidas, talla M,\nde alta calidad. Para Hombre"</string>
+    <string name="ex_3_price">$50.000</string>
 </resources>
