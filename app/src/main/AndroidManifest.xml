@@ -34,7 +34,8 @@
         <activity android:name=".CardDetails" />
         <activity android:name=".CartClothesActivity" />
         <activity android:name=".PurchaseDetails" />
-        <activity android:name=".Purchases"></activity>
+        <activity android:name=".Purchases" />
+        <activity android:name=".AdapterCategoria"></activity>
     </application>
 
 </manifest>
