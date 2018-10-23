@@ -10,8 +10,6 @@ public class Login extends AppCompatActivity {
 
     private Button btnRegistrarse;
     private Button btnAcceder;
-    private Button btnFacebook;
-    private Button btnGmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +18,6 @@ public class Login extends AppCompatActivity {
 
         btnRegistrarse = (Button) findViewById(R.id.btnRegistrarse);
         btnAcceder = (Button) findViewById(R.id.btnAcceder);
-        btnFacebook = (Button) findViewById(R.id.btnFacebook);
-        btnGmail = (Button) findViewById(R.id.btnGmail);
 
         btnRegistrarse.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,22 +30,6 @@ public class Login extends AppCompatActivity {
 
         //This intent needs to be tested
         btnAcceder.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login.this,MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        btnFacebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login.this,MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        btnGmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Login.this,MainActivity.class);
