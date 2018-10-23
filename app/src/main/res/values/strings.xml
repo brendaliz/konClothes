@@ -18,7 +18,7 @@
     <string name="rep_password">Repeat your password</string>
     <string name="create_accout">Create accout</string>
     <string name="return_login_pg">Return to Login</string>
-    <string name="user_email">user@gmailcom</string>
+    <string name="user_email">user@gmail.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_contacts">Contacts</string>
     <string name="card_details_title">Card Details</string>
@@ -26,7 +26,7 @@
     <string name="insert_card_nmber">Insert your card number</string>
     <string name="card_name">Card Name</string>
     <string name="insert_card_name">Insert the name in your card</string>
-    <string name="card_expiration_date">Expiration Date</string>
+    <string name="card_expiration_date">Expiration Date (Card)</string>
     <string name="insert_card_expiration_date">Insert your card expiration date</string>
     <string name="card_security_code">Security Code</string>
     <string name="insert_cvv">Insert your CVV</string>
@@ -63,4 +63,6 @@
     <string name="ex_3_cloth_name">Adidas Socks</string>
     <string name="ex_3_cloth_description">"Socks brand Adidas, M size,\nof high quality. For men"</string>
     <string name="ex_3_price">$50.000</string>
+    <string name="backToPurchaseDetails">Back to Purchase Details</string>
+    <string name="purchasesMade">Purchases Made</string>
 </resources>

@@ -19,12 +19,13 @@
     <string name="create_accout">Crear cuenta</string>
     <string name="return_login_pg">Regresar a Inicio de Sesión</string>
     <string name="card_details_title">Detalles de Tarjeta</string>
+    <string name="user_email">user@gmail.com</string>
     <string name="card_number">No. de Tarjeta</string>
     <string name="insert_card_nmber">Inserte el numero en la tarjeta</string>
     <string name="card_name">Nombre en la tarjeta</string>
     <string name="insert_card_name">Inserte el nombre en la tarjeta</string>
-    <string name="card_expiration_date">Fecha de Vencimiento</string>
-    <string name="insert_card_expiration_date">Inserte fecha de vencimiento de la tarjeta</string>
+    <string name="card_expiration_date">Fecha de Vencimiento (Tarjeta)</string>
+    <string name="insert_card_expiration_date">Inserte fecha de vencimiento</string>
     <string name="card_security_code">Codigo de Seguridad</string>
     <string name="insert_cvv">Inserte su CVV</string>
     <string name="confirm_purchase">Confirmar Compra</string>
@@ -60,4 +61,6 @@
     <string name="ex_3_cloth_name">Calcetines Adidas</string>
     <string name="ex_3_cloth_description">"Calcetines marca Adidas, talla M,\nde alta calidad. Para Hombre"</string>
     <string name="ex_3_price">$50.000</string>
+    <string name="backToPurchaseDetails">Regrear a Detalles de Compra</string>
+    <string name="purchasesMade">Compras Realizadas</string>
 </resources>
