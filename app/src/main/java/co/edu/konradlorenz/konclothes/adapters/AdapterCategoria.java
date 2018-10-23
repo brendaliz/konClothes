@@ -1,6 +1,8 @@
-package co.edu.konradlorenz.konclothes;
+package co.edu.konradlorenz.konclothes.adapters;
 
 import android.content.Context;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,15 +10,17 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
-public class CartClothesAdapter extends BaseAdapter {
-    private Context context;
-    private ArrayList<CartClothesEntity> listItems;
+import co.edu.konradlorenz.konclothes.R;
+import co.edu.konradlorenz.konclothes.entities.Categoria;
 
-    public CartClothesAdapter(Context context, ArrayList<CartClothesEntity> listItems) {
+public class AdapterCategoria extends BaseAdapter {
+
+    private Context context;
+    private ArrayList<Categoria> listItems;
+
+    public AdapterCategoria(Context context, ArrayList<Categoria> listItems) {
         this.context = context;
         this.listItems = listItems;
     }
@@ -38,19 +42,15 @@ public class CartClothesAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        CartClothesEntity item = (CartClothesEntity) getItem(position);
+        Categoria item = (Categoria) getItem(position);
 
         convertView = LayoutInflater.from(context).inflate(R.layout.card_clothes_item,null);
 
-        ImageView imgRopa = convertView.findViewById(R.id.img_foto_ropa);
-        TextView nombreRopa = convertView.findViewById(R.id.nombre_ropa);
-        TextView descripcionRopa = convertView.findViewById(R.id.descripcion);
-        TextView precioRopa = convertView.findViewById(R.id.precio);
+        ImageView imagen = (ImageView) convertView.findViewById(R.id.img_foto_ropa);
+        TextView descripcion = (TextView) convertView.findViewById(R.id.nombre_ropa);
 
-        imgRopa.setImageResource(item.getImgFoto());
-        nombreRopa.setText(item.getNombre());
-        descripcionRopa.setText(item.getDescripcion());
-        precioRopa.setText(item.getPrecio());
+        imagen.setImageResource(item.getImagen());
+        descripcion.setText(item.getNombre());
 
         return convertView;
     }

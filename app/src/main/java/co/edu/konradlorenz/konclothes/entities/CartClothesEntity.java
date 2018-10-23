@@ -1,4 +1,4 @@
-package co.edu.konradlorenz.konclothes;
+package co.edu.konradlorenz.konclothes.entities;
 
 public class CartClothesEntity {
     private int imgFoto;

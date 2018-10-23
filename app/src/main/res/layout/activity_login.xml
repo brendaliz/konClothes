@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_diseño"
+    android:background="@drawable/fondo_diseno"
     tools:context=".Login">
 
     <ScrollView

@@ -9,6 +9,9 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import co.edu.konradlorenz.konclothes.adapters.CartClothesAdapter;
+import co.edu.konradlorenz.konclothes.entities.CartClothesEntity;
+
 public class CartClothesActivity extends AppCompatActivity {
     private CartClothesAdapter adaptador;
 
