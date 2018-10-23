@@ -1,10 +1,12 @@
-package co.edu.konradlorenz.konclothes;
+package co.edu.konradlorenz.konclothes.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import co.edu.konradlorenz.konclothes.R;
 
 public class register extends AppCompatActivity {
 

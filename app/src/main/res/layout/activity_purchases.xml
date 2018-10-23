@@ -5,33 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".PurchaseDetails">
+    tools:context=".activities.PurchaseDetails">
 
-    <ScrollView
+    <TextView
+        android:id="@+id/yourPurchaseDetails"
+        style="@style/BigTitleStyle.Style2"
+        android:text="Compras Realizadas" />
+
+    <ListView
+        android:id="@+id/lvPurchasesIntItems"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/scrollViewPurchaseDet"
-        android:fillViewport="true">
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/yourPurchaseDetails"
-                style="@style/BigTitleStyle.Style2"
-                android:text="Compras Realizadas"/>
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/lvPurchasesIntItems">
-            </ListView>
+        android:layout_height="match_parent"></ListView>
 
-            <Button
-                android:id="@+id/btnVolverCatalogoP"
-                style="@style/ButtonStyle.Style2.Class1"
-                android:text="@string/cart_back_to_catalog"
-                />
-        </LinearLayout>
-    </ScrollView>
+    <Button
+        android:id="@+id/btnVolverCatalogoP"
+        style="@style/ButtonStyle.Style2.Class1"
+        android:text="@string/cart_back_to_catalog" />
 
 </LinearLayout>

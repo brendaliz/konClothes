@@ -1,4 +1,4 @@
-package co.edu.konradlorenz.konclothes;
+package co.edu.konradlorenz.konclothes.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import co.edu.konradlorenz.konclothes.R;
 
 public class Splashscreen extends Activity {
     public void onAttachedToWindow() {

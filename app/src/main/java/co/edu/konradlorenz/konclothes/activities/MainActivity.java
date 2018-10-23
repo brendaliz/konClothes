@@ -1,4 +1,4 @@
-package co.edu.konradlorenz.konclothes;
+package co.edu.konradlorenz.konclothes.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import co.edu.konradlorenz.konclothes.R;
 import co.edu.konradlorenz.konclothes.adapters.SlideAdapter;
 
 public class MainActivity extends AppCompatActivity
