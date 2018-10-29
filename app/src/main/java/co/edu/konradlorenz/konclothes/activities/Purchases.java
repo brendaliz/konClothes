@@ -1,4 +1,4 @@
-package co.edu.konradlorenz.konclothes;
+package co.edu.konradlorenz.konclothes.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import co.edu.konradlorenz.konclothes.R;
 import co.edu.konradlorenz.konclothes.adapters.CartClothesAdapter;
 import co.edu.konradlorenz.konclothes.entities.CartClothesEntity;
 

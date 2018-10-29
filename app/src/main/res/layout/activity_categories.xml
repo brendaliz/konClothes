@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/categories"
-    tools:context=".Categories"
+    tools:context=".activities.Categories"
     android:background="@drawable/fondo_diseno">
 
-
-    <TextView
-        android:id="@+id/categoriesTitle"
-        style="@style/BigTitleStyle.Style2"
-        android:text="@string/categories" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ListView
-            android:id="@+id/listaCategoria"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="150dp" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/categories"
+                android:theme="@style/BigTitleStyle"
+                app:autoSizeTextType="uniform" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="395dp"
+                android:orientation="horizontal">
+
+                <ListView
+                    android:id="@+id/listaCategoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="373dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:divider="#000000"
+                    android:footerDividersEnabled="false"
+                    android:headerDividersEnabled="false" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVolverCatalogo2"
+                style="@style/ButtonStyle.Style2.Class1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cart_back_to_catalog" />
+
+        </LinearLayout>
     </ScrollView>
 
-
-</LinearLayout>
+</RelativeLayout>

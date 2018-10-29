@@ -3,26 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PurchaseDetails">
+    tools:context=".activities.PurchaseDetails">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/scrollViewPurchaseDet"
-        android:fillViewport="true">
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
             <TextView
                 android:id="@+id/yourPurchaseDetails"
                 style="@style/BigTitleStyle.Style2"
                 android:text="@string/purchase_det_title"/>
             <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="false"
+                android:layout_weight="1"
                 android:id="@+id/lvPurchaseItems">
             </ListView>
             <TextView
@@ -41,9 +34,10 @@
                 android:text="@string/pay_mode" />
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:gravity="center">
                 <ImageView
                     android:id="@+id/american_express"
@@ -71,7 +65,6 @@
                 style="@style/ButtonStyle.Style2.Class1"
                 android:text="@string/backToShoppingCart"
                 />
-        </LinearLayout>
-    </ScrollView>
+
 
 </LinearLayout>

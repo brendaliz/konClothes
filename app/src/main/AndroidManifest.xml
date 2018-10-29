@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Splashscreen"
+            android:name=".activities.Splashscreen"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -28,13 +28,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
-        <activity android:name=".register" />
-        <activity android:name=".Categories" />
-        <activity android:name=".CardDetails" />
-        <activity android:name=".CartClothesActivity" />
-        <activity android:name=".PurchaseDetails" />
-        <activity android:name=".Purchases" />
+        <activity android:name=".activities.Login" />
+        <activity android:name=".activities.register" />
+        <activity android:name=".activities.Categories" />
+        <activity android:name=".activities.CardDetails" />
+        <activity android:name=".activities.CartClothesActivity" />
+        <activity android:name=".activities.PurchaseDetails" />
+        <activity android:name=".activities.Purchases" />
         <activity android:name=".adapters.AdapterCategoria"></activity>
     </application>
 

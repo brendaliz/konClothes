@@ -3,39 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/cartProducts"
-    tools:context=".CartClothesActivity">
+    tools:context=".activities.CartClothesActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/scrollView6"
-        android:fillViewport="true">
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-                <TextView
-                    android:id="@+id/yourShoppingCardTitle"
-                    style="@style/BigTitleStyle.Style2"
-                    android:text="@string/your_shopping_card"/>
-                <ListView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/lvCardItems">
-                </ListView>
-                <Button
-                    android:id="@+id/btnRealizarCompra"
-                    style="@style/ButtonStyle.Style2.Class1"
-                    android:text="@string/buy_products"
-                    />
-                <Button
-                    android:id="@+id/btnVolverCatalogo"
-                    style="@style/ButtonStyle.Style2.Class1"
-                    android:text="@string/cart_back_to_catalog"
-                    />
-        </LinearLayout>
-    </ScrollView>
+    <TextView
+        android:id="@+id/yourShoppingCardTitle"
+        style="@style/BigTitleStyle.Style2"
+        android:text="@string/your_shopping_card" />
+
+    <ListView
+        android:id="@+id/lvCardItems"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        android:layout_weight="1" >
+
+    </ListView>
+    <Button
+        android:id="@+id/btnRealizarCompra"
+        style="@style/ButtonStyle.Style2.Class1"
+        android:text="@string/buy_products"
+        />
+
+    <Button
+        android:id="@+id/btnVolverCatalogo"
+        style="@style/ButtonStyle.Style2.Class1"
+        android:text="@string/cart_back_to_catalog" />
+
+
 </LinearLayout>
