@@ -23,5 +23,6 @@
     <Button
         android:id="@+id/btnVolverCatalogoP"
         style="@style/ButtonStyle.Style2.Class1"
-        android:text="@string/cart_back_to_catalog" />
+        android:text="@string/cart_back_to_catalog"
+        android:layout_marginBottom="5dp"/>
 </LinearLayout>

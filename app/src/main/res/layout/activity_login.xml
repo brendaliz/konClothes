@@ -24,7 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@mipmap/ic_launcher_icon" />
+                app:srcCompat="@mipmap/ic_launcher_icon"
+                android:layout_weight="1"/>
 
             <TextView
                 android:id="@+id/konClothesTitle"
@@ -54,7 +55,8 @@
                     android:id="@+id/btnAcceder"
                     style="@style/ButtonStyle.Style1"
                     android:background="@color/colorLavanderDark"
-                    android:text="@string/access" />
+                    android:text="@string/access"
+                    />
 
                 <Button
                     android:id="@+id/btnRegistrarse"
@@ -77,13 +79,18 @@
                     android:id="@+id/btnFacebook"
                     style="@style/ButtonStyle.Style2.Class1"
                     android:layout_height="58dp"
-                    android:background="@drawable/facebook_button" />
+                    android:background="@drawable/facebook_button"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"/>
 
                 <Button
                     android:id="@+id/btnGmail"
                     style="@style/ButtonStyle.Style2.Class1"
                     android:layout_height="58dp"
-                    android:background="@drawable/gmail_button" />
+                    android:background="@drawable/gmail_button"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"/>
 
             </LinearLayout>
         </LinearLayout>

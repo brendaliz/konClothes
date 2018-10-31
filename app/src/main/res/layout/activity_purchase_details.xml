@@ -64,6 +64,7 @@
                 android:id="@+id/btnVolverCarrito"
                 style="@style/ButtonStyle.Style2.Class1"
                 android:text="@string/backToShoppingCart"
+                android:layout_marginBottom="5dp"
                 />
 
 
