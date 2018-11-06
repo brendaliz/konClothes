@@ -11,22 +11,42 @@
         android:id="@+id/yourPurchaseDetails"
         style="@style/BigTitleStyle.Style2"
         android:text="@string/purchase_det_title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <TextView
         android:id="@+id/totalPriceTitle"
-        style="@style/CardDetailsTextView"
+        style="@style/PurchasesDetailsTextView"
+        android:layout_width="wrap_content"
         android:text="@string/total_price_text" />
 
     <TextView
         android:id="@+id/totalPrice"
-        style="@style/CardDetailsTextView.PD"
+        android:layout_width="wrap_content"
+        style="@style/PurchasesDetailsTextView.PD"
         android:text="@string/total_price"
         />
 
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <TextView
         android:id="@+id/payMode"
-        style="@style/CardDetailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="0dp"
+        style="@style/PurchasesDetailsTextView"
+        android:layout_gravity="center"
         android:text="@string/pay_mode" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,8 +73,17 @@
             android:id="@+id/visa"
             style="@style/PayModeImages.Ex"
             android:src="@drawable/visa"
+            android:layout_marginRight="10dp"
             />
     </LinearLayout>
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
 
             <ListView
                 android:layout_width="fill_parent"

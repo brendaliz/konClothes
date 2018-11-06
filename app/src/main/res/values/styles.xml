@@ -80,6 +80,20 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
+    <style name="PurchasesDetailsTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="PurchasesDetailsTextView.PD">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+
     <style name="BigTitleStyle">
         <item name="android:layout_centerInParent">true</item>
         <item name="android:layout_gravity">center</item>
@@ -108,6 +122,6 @@
     </style>
 
     <style name="PayModeImages.Ex">
-        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
     </style>
 </resources>
