@@ -63,4 +63,8 @@
     <string name="ex_3_price">$50.000</string>
     <string name="backToPurchaseDetails">Regrear a Detalles de Compra</string>
     <string name="purchasesMade">Compras Realizadas</string>
+    <string name="showPurchases">Mostrar Compras</string>
+    <string name="listOfCloPur">"Lista de Ropas\n   Compradas"</string>
+    <string name="clothInCar">"Ropas en el\n    Carrito"</string>
+    <string name="showCloInCart">Mostrar Ropas en el Carrito</string>
 </resources>

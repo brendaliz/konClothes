@@ -1,9 +1,12 @@
 package co.edu.konradlorenz.konclothes.activities;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewAnimationUtils;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -18,15 +21,18 @@ public class CartClothesActivity extends AppCompatActivity {
 
     private Button btnRealizarCompra;
     private Button btnVolverCatalogo;
+    Button btnShowObjCart;
+    ListView lvItems;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart_clothes);
 
-        ListView lvItems = (ListView) findViewById(R.id.lvCardItems);
+        lvItems = (ListView) findViewById(R.id.lvCardItems);
         btnRealizarCompra = (Button) findViewById(R.id.btnRealizarCompra);
         btnVolverCatalogo = (Button) findViewById(R.id.btnVolverCatalogo);
+        btnShowObjCart = (Button) findViewById(R.id.btnShowObjCart);
         adaptador = new CartClothesAdapter(this,GetArrayItems());
         lvItems.setAdapter(adaptador);
 
@@ -47,6 +53,35 @@ public class CartClothesActivity extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
+
+        btnShowObjCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnShowPurchases(v);
+            }
+        });
+    }
+
+    public void btnShowPurchases(View view){
+        int cx = (lvItems.getLeft() + lvItems.getRight())/2;
+        int cy = (lvItems.getTop())/2;
+
+        float radius = Math.max(lvItems.getWidth(),lvItems.getHeight()) * 2.0f;
+
+        if (lvItems.getVisibility() == View.INVISIBLE){
+            lvItems.setVisibility(View.VISIBLE);
+            ViewAnimationUtils.createCircularReveal(lvItems,cx,cy,0,radius).start();
+        }else {
+            Animator reveal = ViewAnimationUtils.createCircularReveal(lvItems,cx,cy,radius,0);
+            reveal.addListener(new AnimatorListenerAdapter() {
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    super.onAnimationEnd(animation);
+                    lvItems.setVisibility(View.INVISIBLE);
+                }
+            });
+            reveal.start();
+        }
     }
 
     @Override

@@ -68,12 +68,28 @@
         <item name="android:layout_marginTop">25dp</item>
     </style>
 
+    <style name="ButtonStyle.Style2.Class2">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
     <style name="CardDetailsTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">30dp</item>
         <item name="android:layout_marginRight">30dp</item>
         <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="PurchasesListTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">#3F51B5</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="CardDetailsTextView.PD">
