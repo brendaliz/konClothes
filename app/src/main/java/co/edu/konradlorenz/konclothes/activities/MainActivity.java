@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
@@ -86,16 +92,19 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
             Intent intent = new Intent(MainActivity.this, Categories.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         } else if (id == R.id.nav_com) {
             Intent intent = new Intent(MainActivity.this, Purchases.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         } else if (id == R.id.nav_car) {
             Intent intent = new Intent(MainActivity.this, CartClothesActivity.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         } else if (id == R.id.nav_exit) {
             Intent intent = new Intent(MainActivity.this, Login.class);
             startActivity(intent);
-
+            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

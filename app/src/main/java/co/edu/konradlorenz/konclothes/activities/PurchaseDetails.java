@@ -45,6 +45,7 @@ public class PurchaseDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PurchaseDetails.this, CartClothesActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
 
@@ -53,6 +54,7 @@ public class PurchaseDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PurchaseDetails.this, CardDetails.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -61,6 +63,7 @@ public class PurchaseDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PurchaseDetails.this, CardDetails.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -69,6 +72,7 @@ public class PurchaseDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PurchaseDetails.this, CardDetails.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -77,8 +81,15 @@ public class PurchaseDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PurchaseDetails.this, CardDetails.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 
     private ArrayList<CartClothesEntity> GetArrayItems(){

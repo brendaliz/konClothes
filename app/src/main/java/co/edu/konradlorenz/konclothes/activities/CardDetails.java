@@ -26,6 +26,7 @@ public class CardDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CardDetails.this,PurchaseDetails.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
 
@@ -34,7 +35,14 @@ public class CardDetails extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CardDetails.this,Purchases.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

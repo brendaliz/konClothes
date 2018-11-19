@@ -37,8 +37,15 @@ public class Categories extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Categories.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             }
         });
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 
     private ArrayList<Categoria> GetArrayItems() {
