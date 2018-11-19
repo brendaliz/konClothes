@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import co.edu.konradlorenz.konclothes.R;
 
@@ -42,6 +43,7 @@ public class Login extends AppCompatActivity {
                 Intent intent = new Intent(Login.this,MainActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                Toast.makeText(getApplicationContext(), getString(R.string.loggedWithText)+getString(R.string.personalAccText), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -51,6 +53,7 @@ public class Login extends AppCompatActivity {
                 Intent intent = new Intent(Login.this,MainActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                Toast.makeText(getApplicationContext(), getString(R.string.loggedWithText)+getString(R.string.facebookText), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -60,6 +63,7 @@ public class Login extends AppCompatActivity {
                 Intent intent = new Intent(Login.this,MainActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                Toast.makeText(getApplicationContext(), getString(R.string.loggedWithText)+getString(R.string.gmailText), Toast.LENGTH_SHORT).show();
             }
         });
     }

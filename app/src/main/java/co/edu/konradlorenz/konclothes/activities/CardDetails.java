@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import co.edu.konradlorenz.konclothes.R;
 
@@ -36,6 +37,7 @@ public class CardDetails extends AppCompatActivity {
                 Intent intent = new Intent(CardDetails.this,Purchases.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                Toast.makeText(getApplicationContext(), getString(R.string.purchaseMade), Toast.LENGTH_SHORT).show();
             }
         });
     }

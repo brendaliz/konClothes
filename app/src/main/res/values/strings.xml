@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KonClothes</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Welcom</string>
+    <string name="nav_header_title">Welcome</string>
     <string name="nav_header_subtitle">Username</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -69,4 +70,11 @@
     <string name="listOfCloPur">"List of Clothes\n   Purchased"</string>
     <string name="clothInCar">"Clothes in\n  the Cart"</string>
     <string name="showCloInCart">Show clothes in the Cart</string>
+    <string name="createdAccount">Your account has been created!</string>
+    <string name="loggedWithText">Logged with: </string>
+    <string name="gmailText">Gmail</string>
+    <string name="facebookText">Facebook</string>
+    <string name="personalAccText">Personal Account</string>
+    <string name="sessionClosed">Session Closed</string>
+    <string name="purchaseMade">Purchase Made</string>
 </resources>

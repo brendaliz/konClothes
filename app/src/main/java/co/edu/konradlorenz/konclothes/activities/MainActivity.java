@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import co.edu.konradlorenz.konclothes.R;
 import co.edu.konradlorenz.konclothes.adapters.SlideAdapter;
@@ -105,6 +106,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(MainActivity.this, Login.class);
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+            Toast.makeText(getApplicationContext(), getString(R.string.sessionClosed), Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
