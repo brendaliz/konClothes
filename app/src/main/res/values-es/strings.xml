@@ -64,7 +64,7 @@
     <string name="ex_3_cloth_name">Calcetines Adidas</string>
     <string name="ex_3_cloth_description">"Calcetines marca Adidas, talla M,\nde alta calidad. Para Hombre"</string>
     <string name="ex_3_price">$50.000</string>
-    <string name="backToPurchaseDetails">Regrear a Detalles de Compra</string>
+    <string name="backToPurchaseDetails">Regresar a Detalles de Compra</string>
     <string name="purchasesMade">Compras Realizadas</string>
     <string name="showPurchases">Mostrar Compras</string>
     <string name="listOfCloPur">"Lista de Ropas\n   Compradas"</string>
